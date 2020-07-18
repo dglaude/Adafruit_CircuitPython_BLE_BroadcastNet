@@ -1,3 +1,14 @@
+Why this fork
+=============
+
+I have an EnviroPlus FeatherWing and I want to use it for logging.
+
+EnviroPlus FeatherWing is maybe not compatible with AirLift board (see https://github.com/pimoroni/EnviroPlus-FeatherWing/issues/4 ).
+As most or all pin are in use, it might not be compatible with Adafruit Adalogger Feather to save the data on an SD card.
+Also it is not supposed to be compatible with STM32 Feather, so it cannot use the SD card reader on that board.
+The only hope is to use the Bluetooth from the nRF52540 and use that to communicate value to the outside.
+But maybe BroadcastNet does not support the kind of value we can get from EnviroPlus, so it requires enhancement.
+
 Introduction
 ============
 
